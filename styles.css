@@ -1333,104 +1333,87 @@ h3 {
 }
 
 
-/* =========================================================
-   MÓVIL
-   ========================================================= */
+/* =========================
+   MOBILE
+   ========================= */
 
-@media(max-width:560px) {
+@media (max-width: 560px) {
 
-  .hero {
-
-    padding-top:
-      7rem;
-
-    padding-bottom:
-      5rem;
-
+  /* HEADER */
+  .site-header {
+    min-height: 72px;
+    padding: 8px 18px;
   }
 
-
-  .hero-botanical--right {
-
-    display:
-      none;
-
+  .header-inner {
+    min-height: 72px;
   }
-
-
-  .hero-botanical--left {
-
-    width:
-      150px;
-
-    left:
-      -22px;
-
-    bottom:
-      60px;
-
-    opacity:
-      .7;
-
-  }
-
-
-  .timeline-item {
-
-    grid-template-columns:
-      74px
-      1fr;
-
-    gap:
-      1rem;
-
-  }
-
-
-  .photo-placeholder {
-
-    min-height:
-      350px;
-
-  }
-
-
-  .eyebrow {
-
-    font-size:
-      .92rem;
-
-  }
-
-
-  .timeline-time {
-
-    font-size:
-      .95rem;
-
-  }
-
 
   .brand-logo {
+    width: 72px;
+    height: auto;
+  }
 
-  width: 85px;
+  .brand-title {
+    font-size: 2rem;
+  }
 
-  height: 85px;
+  .menu-toggle {
+    font-size: 2rem;
+  }
 
-  max-width: 85px;
 
-  max-height: 85px;
+  /* TITULO DE PÁGINA */
+  .page-title,
+  .section-title {
+    font-size: 2.7rem;
+    line-height: 1;
+    margin: 0;
+    padding: 10px 20px 14px;
+  }
 
-   }
-   .footer-logo {
 
-     width:
-       150px;
+  /* HERO / BIENVENIDA */
+  .hero,
+  .intro,
+  .welcome-section {
+    min-height: auto;
+    padding: 70px 24px 80px;
+  }
 
-   }
+  .eyebrow,
+  .section-kicker {
+    font-size: 0.9rem;
+    letter-spacing: 0.22em;
+    margin-bottom: 24px;
+  }
+
+  .hero h1,
+  .intro h1,
+  .welcome-section h1 {
+    font-size: clamp(3rem, 11vw, 4.2rem);
+    line-height: 0.98;
+    margin-bottom: 26px;
+  }
+
+  .hero p,
+  .intro p,
+  .welcome-section p {
+    font-size: 1.15rem;
+    line-height: 1.55;
+    max-width: 330px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  /* REDUCIR ESPACIOS ENTRE SECCIONES */
+  section {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
 
 }
-
 
 /* =========================================================
    ACCESIBILIDAD / MENOS MOVIMIENTO
