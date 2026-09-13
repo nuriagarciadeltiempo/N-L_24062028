@@ -113,13 +113,27 @@ a {
 
 .brand {
 
-  font-family: var(--font-display);
+  display: inline-flex;
 
-  font-size: 1.45rem;
+  align-items: center;
 
-  font-weight: 600;
+  justify-content: center;
 
   text-decoration: none;
+
+  line-height: 0;
+
+}
+
+.brand-logo {
+
+  display: block;
+
+  width: 110px;
+
+  height: auto;
+
+  object-fit: contain;
 
 }
 
@@ -168,6 +182,7 @@ a {
   background: currentColor;
 
 }
+
 
 
 /* =========================================================
@@ -1405,6 +1420,10 @@ h3 {
       .95rem;
 
   }
+   .brand-logo {
+
+  width: 82px;
+
 
 }
 
@@ -1440,3 +1459,22 @@ h3 {
   }
 
 }
+
+/* =========================================================
+   FOTO REAL DE LA MASIA
+   ========================================================= */
+
+.section-photo {
+
+  width: 100%;
+
+  height: 520px;
+
+  object-fit: cover;
+
+  display: block;
+
+}
+
+
+
