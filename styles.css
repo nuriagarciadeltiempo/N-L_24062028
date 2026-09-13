@@ -1184,7 +1184,7 @@ h3 {
 .site-footer {
 
   padding:
-    3rem
+    4rem
     1.5rem;
 
   border-top:
@@ -1193,40 +1193,42 @@ h3 {
   text-align:
     center;
 
+  background:
+    var(--ivory);
+
 }
 
-.footer-monogram {
+
+.footer-logo-link {
 
   display:
-    block;
+    inline-flex;
 
-  margin-bottom:
-    .6rem;
+  align-items:
+    center;
 
-  font-family:
-    var(--font-display);
-
-  font-size:
-    1.9rem;
+  justify-content:
+    center;
 
   text-decoration:
     none;
 
 }
 
-.site-footer p {
 
-  margin:
-    0;
+.footer-logo {
 
-  color:
-    var(--muted);
+  display:
+    block;
 
-  font-size:
-    .74rem;
+  width:
+    190px;
 
-  letter-spacing:
-    .14em;
+  height:
+    auto;
+
+  object-fit:
+    contain;
 
 }
 
@@ -1432,6 +1434,12 @@ h3 {
   max-width: 85px;
 
   max-height: 85px;
+
+   }
+   .footer-logo {
+
+     width:
+       150px;
 
    }
 
