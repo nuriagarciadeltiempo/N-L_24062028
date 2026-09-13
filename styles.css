@@ -1177,14 +1177,14 @@ h3 {
 }
 
 
-/* =========================================================
+ /* =========================================================
    FOOTER
    ========================================================= */
 
 .site-footer {
 
   padding:
-    4rem
+    3rem
     1.5rem;
 
   border-top:
@@ -1199,36 +1199,22 @@ h3 {
 }
 
 
-.footer-logo-link {
+.footer-text-link {
 
-  display:
-    inline-flex;
+  color:
+    var(--navy);
 
-  align-items:
-    center;
+  font-size:
+    1rem;
 
-  justify-content:
-    center;
+  font-weight:
+    700;
 
   text-decoration:
-    none;
+    underline;
 
-}
-
-
-.footer-logo {
-
-  display:
-    block;
-
-  width:
-    190px;
-
-  height:
-    auto;
-
-  object-fit:
-    contain;
+  text-underline-offset:
+    4px;
 
 }
 
