@@ -111,27 +111,36 @@ a {
 
 }
 
+/* =========================================================
+   LOGO DEL HEADER
+   ========================================================= */
+
 .brand {
 
-  display: inline-flex;
+  display: flex;
 
   align-items: center;
 
   justify-content: center;
 
+  flex-shrink: 0;
+
   text-decoration: none;
 
-  line-height: 0;
-
 }
+
 
 .brand-logo {
 
   display: block;
 
-  width: 110px;
+  width: 72px;
 
-  height: auto;
+  height: 72px;
+
+  max-width: 72px;
+
+  max-height: 72px;
 
   object-fit: contain;
 
@@ -1422,7 +1431,13 @@ h3 {
   }
    .brand-logo {
 
-  width: 82px;
+  width: 60px;
+
+  height: 60px;
+
+  max-width: 60px;
+
+  max-height: 60px;
 
 
 }
